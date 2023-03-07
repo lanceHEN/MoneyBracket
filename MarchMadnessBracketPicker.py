@@ -1,8 +1,7 @@
-#using the march madness predictor program, this will attempt to find the most profitable bracket
+#this will attempt to find the most profitable bracket according to s * 2^r scoring
 #this will simulate a variety of outcomes to find which yields the most predicted points
 #predicted points are determined by multiplying the possible points gained by the probability of that team winning
 #whichever has greatest sum of return is the best
-#NOTE I simulated what would happen if the highest seed won every game, and got a TERRIBLE result
 
 import math
 import random
@@ -15,7 +14,7 @@ import lxml
 import collections
 from scipy.stats import norm
 
-path = "/Users/lancehendricks/Documents/Kenpoms/latestkenpom.html"
+path = "insert kenpom html file path here"
 
 #insert file location below here:
 #/Users/lancehendricks/Documents/Kenpoms/latestkenpom.html
